@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <style>
+        .btncon {
+        width: 130px;
+        height: 130px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        border: 3px solid #878787;
+        display: block;
+        color: #838383;
+        text-decoration: none;
+        box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        float: left;
+    }
+    .li{
+        padding: 0,10;
+    }
+    .conbtn{
+        /* margin-left: 100px; */
+        margin-top: 30px;
+    }
+    /* Media Query */
+    @media only screen and (max-width: 768px){
+      .btncon {
+        width: 30px;
+        height: 30px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        border: 3px solid #878787;
+        display: block;
+        color: #838383;
+        text-decoration: none;
+        box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
+        /* padding: 20px; */
+        float: left;
+    }
+    }
+      </style>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3" style="background-color: #40c4ff;">
+            <div class="col" style="float: left;">
+              <p class="support-icon" style="display: inline-block;">This is Xcellhost<strong>Support</strong></p>
+          </div>
+          </div>
+          <div class="col-sm-1">
+            <img src="green-arrow.png" alt="" style="display: inline-block;margin-top: -50px;">
+          </div>
+          <div class="col-sm-5 col-md-5">
+            <ul class="conbtn" style="list-style: none;">
+              <li class="btncon mx-2"><a href=""><img style="" src="https://cwatch.comodo.com/images-new/call-icon.png" alt=""><br><span>Call</span></a></li>
+              <li class="btncon mx-2"><a href=""><img src="" alt="">Chat</a></li>
+              <li class="btncon ml-2"><a href=""><img src="" alt="">Email</a></li>
+          </ul>
+          </div>
+          <div class="col-sm-3 col-md-1">
+            <img src="one.jpg" alt="">
+          </div>
+            <!-- <div class="col-sm-3" style="background-color: #40c4ff;">
+                <div class="col" style="float: left;">
+                    <p class="support-icon" style="display: inline-block;">This is Xcellhost<strong>Support</strong></p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="green-arrow.png" alt="" style="display: inline-block; margin-left: 320px;margin-top: -50px;">
+                </div>
+            </div> -->
+            <!-- <div class="col-sm-6 col-md-6 text-center">
+                    <ul class="conbtn" style="list-style: none;">
+                        <li class="btncon mx-2"><a href=""><img style="" src="https://cwatch.comodo.com/images-new/call-icon.png" alt=""><br><span>Call</span></a></li>
+                        <li class="btncon mx-2"><a href=""><img src="" alt="">Chat</a></li>
+                        <li class="btncon ml-2"><a href=""><img src="" alt="">Email</a></li>
+                    </ul>
+            </div> -->
+            <!-- <div class="col-sm-3 col-md-1">
+                    <img src="one.jpg" alt="">
+            </div> -->
+        </div>
+      </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
