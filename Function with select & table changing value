@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="INDEX.JS"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <style>
+      .smbtn{
+        font-size: 15px;
+        border-radius:0px;
+      }
+    </style>
+      <div class="container">
+        <div class="row">
+            <div class=" col-4 mt-5 ml-0 pb-1">
+              <h3>Cyber Cloud Backup</h3>
+              <select class="custom-select" id="inputGroupSelect01" onchange="chaVal()">
+                <option value="india" >INDIA</option>
+                <option value="singa">SINGAPORE</option>
+                <option value="dubai">Dubai</option>
+                
+              </select>
+            </div>
+            <div class=" col-8 mt-5 p-2">
+                <h3>Payment Method</h3>
+                <button type="button" class="btn btn-primary btn-lg p-1 border-0 smbtn" id="smbtn" onclick="changeMe()">Annualy</button>
+                <button type="button" class="btn btn-secondary btn-lg p-1 border-0 smbtn" id="smbtn1" onclick="changeMe()">Semi-Annualy</button>
+                <button type="button" class="btn btn-primary btn-lg p-1 border-0 smbtn" id="smbtn2" onclick="changeMe()">Quaterly</button>
+                <button type="button" class="btn btn-secondary btn-lg p-1 border-0 smbtn" id="smbtn3" onclick="changeMe()">Monthly</button>
+            </div>
+            <!-- Table here -->
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th scope="col" class="table-primary">Product</th>
+                  <th scope="col" class="table-primary">Product Description</th>
+                  <th scope="col" class="table-primary">Pricing</th>
+                  <th class="table-primary"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>₹<span class="changeMe" id="chame1">200</span></td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>₹<span class="changeMe" id="chame2">200</span></td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Larry the Bird</td>
+                  <td>hello ladies</td>
+                  <td>₹<span class="changeMe" id="chame3">200</span></td>
+                </tr>
+              </tbody>
+            </table>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+<!-- JavaScript le le bhai-->
+// working code
+// function chaVal() {
+//     var a = document.getElementById("inputGroupSelect01").value;
+//     alert("This is " + a);
+//     if(a == "india"){
+//         document.getElementById("smbtn1").innerHTML = "India";
+//         document.getElementById("smbtn").innerHTML = "iAnnualy";
+//         document.getElementById("smbtn2").innerHTML = "iQuaterly";
+//         document.getElementById("smbtn3").innerHTML = "iMonthly";
+//     }
+//     else if(a == "singa"){
+//         document.getElementById("smbtn1").innerHTML = "Singapore";
+//         document.getElementById("smbtn").innerHTML = "dAnnualy";
+//         document.getElementById("smbtn2").innerHTML = "dQuaterly";
+//         document.getElementById("smbtn3").innerHTML = "dMonthly";
+//     }
+//     else{
+//         document.getElementById("smbtn1").innerHTML = "dubai";
+//         document.getElementById("smbtn").innerHTML = "dAnnualy";
+//         document.getElementById("smbtn2").innerHTML = "dQuaterly";
+//         document.getElementById("smbtn3").innerHTML = "dMonthly";
+//     }
+// }
+function changeMe() {
+    var change =  document.getElementById("smbtn").innerText;
+    if(change = "Monthly"){
+        var me = parseInt(document.getElementById("chame1").innerText);
+        me = me*12;
+        document.getElementById("chame1").innerHTML = me;
+        alert("This is correct " + change +" Rates " +me);
+    }
+}
