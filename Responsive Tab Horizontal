@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .tablinks.active::after {
+            content: " ";
+            display: block;
+            position: absolute;
+            height: 2px;
+            background: #FFA910;
+            width: 50px;
+            top: 50%;
+            right: -150px;
+        }
+
+        .tablink {
+            width: 100%
+        }
+
+        .tablinks {
+            width: 70%;
+        }
+
+        @media screen and (max-width: 991px) {
+            .tablinks {
+                width: 100%;
+            }
+
+            .tablinks.active::after {
+                display: none;
+            }
+
+            .tab-content.border-left {
+                border-left: none !important;
+            }
+        }
+
+        .ul-tablink {
+            border: transparent;
+        }
+
+        a.tablinks.nav-link.active {
+            border: 1px solid #FF9800 !important;
+            position: relative;
+        }
+
+        /* Tabs */
+        .responsive-tabs,
+        .responsive-tabs2 {
+            margin-top: 20px;
+        }
+
+        .responsive-tabs-container .tab-content {
+
+
+            border: none;
+        }
+
+        .responsive-tabs-container[class*="accordion-"] .tab-pane {
+            margin-bottom: 15px;
+        }
+
+        .responsive-tabs-container[class*="accordion-"] .accordion-link {
+            display: none;
+            margin-bottom: 10px;
+            padding: 10px 15px;
+            background-color: #f5f5f5;
+            border-radius: 3px;
+            border: 1px solid #ddd;
+            color: #333;
+        }
+
+        .responsive-tabs-container[class*="accordion-"] .accordion-link.active {
+            border-bottom: medium none;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            color: #ff6600;
+        }
+
+        @media (max-width: 767px) {
+            .responsive-tabs-container.accordion-xs .nav-tabs {
+                display: none;
+            }
+
+            .responsive-tabs-container.accordion-xs .accordion-link {
+                display: block;
+            }
+
+            .responsive-tabs-container[class*="accordion-"] .tab-pane {
+                border: 1px solid #ddd;
+                border-top: none;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                border-width: medium 1px 1px;
+                margin-bottom: 10px;
+                margin-top: -10px;
+                padding: 10px 10px 0;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 991px) {
+            .responsive-tabs-container.accordion-sm .nav-tabs {
+                display: none;
+            }
+
+            .responsive-tabs-container.accordion-sm .accordion-link {
+                display: block;
+            }
+
+            .responsive-tabs-container[class*="accordion-"] .tab-pane {
+                border: 1px solid #ddd;
+                border-top: none;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                border-width: medium 1px 1px;
+                margin-bottom: 10px;
+                margin-top: -10px;
+                padding: 10px 10px 0;
+            }
+        }
+
+        @media (min-width: 992px) and (max-width: 1199px) {
+            .responsive-tabs-container.accordion-md .nav-tabs {
+                display: none;
+            }
+
+            .responsive-tabs-container.accordion-md .accordion-link {
+                display: block;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .responsive-tabs-container.accordion-lg .nav-tabs {
+                display: none;
+            }
+
+            .responsive-tabs-container.accordion-lg .accordion-link {
+                display: block;
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="container my-5 mx-auto">
+        <ul class="nav nav-tabs responsive-tabs ul-tablink col-lg-6">
+            <li class="nav-item tablink">
+                <a class="tablinks nav-link active " data-toggle="tab" href="#tab1">
+                    <h5> Email Preservation & Extraction</h5>
+                   
+                </a>
+            </li>
+
+            <li class="nav-item tablink">
+                <a class="tablinks nav-link " data-toggle="tab" href="#tab2">
+                    <h5>Compliance</h5>
+                    
+                </a>
+            </li>
+
+            <li class="nav-item tablink">
+                <a class="tablinks nav-link " data-toggle="tab" href="#tab3">
+                    Reversing Data Fragmentation
+                </a>
+            </li>
+
+            <li class="nav-item tablink">
+                <a class="tablinks nav-link " data-toggle="tab" href="#tab4">
+                    Information Governance & Data Management
+                </a>
+            </li>
+
+            <li class="nav-item tablink">
+                <a class="tablinks nav-link " data-toggle="tab" href="#tab5">
+                    Performance Optimisation
+                </a>
+            </li>
+
+            <li class="nav-item tablink">
+                <a class="tablinks nav-link " data-toggle="tab" href="#tab6">
+                    Legacy Data Management
+                </a>
+            </li>
+
+            <li class="nav-item tablink">
+                <a class="tablinks nav-link " data-toggle="tab" href="#tab7">
+                    Productivity with eDiscovery
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="tab-content col-lg-6 border-left border-warning">
+            <div id="tab1" class="tab-pane fade active show ">
+                <h3>Email Preservation and Extraction</h3>
+                <p>Email is the most popular business communication tool and it is gaining importance as a destination for authentication, notification, authorization, issue resolution, etc. for digital businesses. This makes it the #1 priority to secure the resulting data trail across many industry sectors.</p>
+                <p>Dropsute cloud-based archival help you safeguard email data in secure tamper-proof vaults over extended periods, maintaining the data online and always search ready, with ediscovery tools to find and extract select data on demand.</p>
+            </div>
+
+            <div id="tab2" class="tab-pane fade">
+                <h3>Compliance</h3>
+                <p>With more industry segments getting covered under regulations, it is important to have a scalable way to safeguard email data and keep it compliance-ready, available on-demand easily and quickly.</p>
+                <p>With immutable stores, fast e-discovery, and easy data extraction, Dropsute cloud email archiving solution can reduce compliance-related concerns, ease the burden of adhering to your industry regulations and cybersecurity guidelines, comply with applicable privacy and data residency laws and help respond to assistance requests for litigation, audits, and reviews, easily and accurately.</p>
+            </div>
+
+            <div id="tab3" class="tab-pane fade">
+                <h3>Reversing Data Fragmentation</h3>
+                <p>With growing fragmentation of email data across endpoints and storage devices, it is becoming increasingly important to consolidate all the data in a central repository to prevent data loss, enable multi-level discovery, access and recovery.</p>
+                <p>Dropsute can archive live email for all your users and move fragmented email data into vaults to make them accessible on demand.</p>
+            </div>
+
+            <div id="tab4" class="tab-pane fade">
+                <h3>Information Governance & Data Management</h3>
+                <p>Dropsute's role-based access control can support your organization’s information governance and data management strategy by mimicking your organization’s hierarchical structure, defining user -level retention policies and supporting a differential authorized access policy for the accumulated email data.</p>
+            </div>
+
+            <div id="tab5" class="tab-pane fade">
+                <h3>Performance Optimisation</h3>
+                <p>The increasing volume of email messages is leading to bloated mailboxes, resulting in slower and longer email client syncs that negatively impact the performance of devices and mail servers, while users struggle to manage and maintain their inboxes to retain important messages.</p>
+                <p>Dropsute email archival system supports a hierarchical storage architecture enabling the organization to achieve leaner mail servers & mailboxes on the devices, pushing up performance and improving productivity.</p>
+            </div>
+
+            <div id="tab6" class="tab-pane fade">
+                <h3>Legacy Email Data Management</h3>
+                <p>Legacy email data can be fragmented across the organization posing risks and causing friction while migrating between systems.</p>
+                <p>Using the automated data migration tools, Dropsute enables upload and aggregation of fragmented legacy email data into a centralised archival for easy discovery and extraction.</p>
+            </div>
+
+            <div id="tab7" class="tab-pane fade">
+                <h3>Increased Productivity with ediscovery</h3>
+                <p>A central, search ready repository for email, can help you discover useful information, on-demand, thus leveraging the trapped value in email data.</p>
+                <p>With Dropsute ediscovery, any piece of information can be discovered instantly. Frequently used queries can be saved to later uncover updated information with a single click.</p>
+            </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+
+        <script>
+            ! function ($) {
+                "use strict";
+                var a = {
+                    accordionOn: ["xs"]
+                };
+                $.fn.responsiveTabs = function (e) {
+                    var t = $.extend({}, a, e),
+                        s = "";
+                    return $.each(t.accordionOn, function (a, e) {
+                        s += " accordion-" + e
+                    }), this.each(function () {
+                        var a = $(this),
+                            e = a.find("> li > a"),
+                            t = $(e.first().attr("href")).parent(".tab-content"),
+                            i = t.children(".tab-pane");
+                        a.add(t).wrapAll('<div class="responsive-tabs-container row" />');
+                        var n = a.parent(".responsive-tabs-container");
+                        n.addClass(s), e.each(function (a) {
+                            var t = $(this),
+                                s = t.attr("href"),
+                                i = "",
+                                n = "",
+                                r = "";
+                            t.parent("li").hasClass("active") && (i = "active"), 0 === a && (n =
+                                    " first"), a === e.length - 1 && (r = " last"), t.clone(!1)
+                                .addClass("accordion-link" + i + n + r).insertBefore(s)
+                        });
+                        var r = t.children(".accordion-link");
+                        e.on("click", function (a) {
+                            a.preventDefault();
+                            var e = $(this),
+                                s = e.parent("li"),
+                                n = s.siblings("li"),
+                                c = e.attr("href"),
+                                l = t.children('a[href="' + c + '"]');
+                            s.hasClass("active") || (s.addClass("show active"), n.removeClass(
+                                "show active"), i.removeClass("show active"), $(c).addClass(
+                                "show active"), r.removeClass("show active"), l.addClass(
+                                "show active"))
+                        }), r.on("click", function (t) {
+                            t.preventDefault();
+                            var s = $(this),
+                                n = s.attr("href"),
+                                c = a.find('li > a[href="' + n + '"]').parent("li");
+                            s.hasClass("active") || (r.removeClass("show active"), s.addClass(
+                                    "show active"), i.removeClass("show active"), $(n).addClass(
+                                    "show active"), e.parent("li").removeClass("show active"), c
+                                .addClass("show active"))
+                        })
+                    })
+                }
+            }(jQuery);
+
+
+            $('.responsive-tabs').responsiveTabs({
+                accordionOn: ['xs', 'sm']
+            });
+        </script>
+</body>
+
+</html>
