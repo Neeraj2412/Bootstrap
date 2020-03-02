@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <style>
+          .development_header-row {
+            width: 100%;
+            position: relative;
+        }
+
+        .banner {
+            position: relative;
+        }
+
+        @media (max-width: 1920px) {
+            .development_header-row .developBanner {}
+        }
+
+        .development_header-row .developBanner {
+            width: 100%;
+            position: relative;
+            z-index: 9;
+        }
+
+        .development_header-row .tabBanner {
+            display: none;
+        }
+
+        .development_header-row .devlopBannerCont {
+            width: 100%;
+            z-index: 99;
+            position: absolute;
+            display: table;
+            text-align: center;
+            top: 0;
+        }
+
+        .development_header-row .devlopBannerCont .developContent {
+            width: 610px;
+            float: left;
+            position: relative;
+            left: 3%;
+            margin-top: 155px;
+            text-align: left;
+        }
+
+        .development_header-row .devlopBannerCont h2 {
+            margin-bottom: 20px;
+            font-size: 35px;
+            color: #0b53a3;
+            font-family: Roboto, sans-serif;
+            font-weight: 300;
+        }
+
+        .developmentMainContainer {
+            margin: 0;
+            width: 100%;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+
+        .clearfix:before,
+        .clearfix:after {
+            display: table;
+            line-height: 0;
+            content: "";
+        }
+
+        p {
+            display: block;
+            margin-block-start: 0;
+            margin-block-end: 0;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .rightPannelMnuCont li a:hover {
+            color: #fff;
+            background: #3b4196;
+        }
+
+        .developmentMainContainer .dvlptMainLeftContainer {
+
+            float: left;
+            padding-bottom: 20px;
+        }
+
+        .developmentMainContainer .externetMAinCont {
+            width: 100%;
+            padding: 40px 10px 10px 40px;
+        }
+
+        .topPannelNavCont {
+
+            border: 1px solid #ddd;
+        }
+
+        .rightPannelMnuCont {
+            width: 100%;
+        }
+
+        .rightPannelMnuCont ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .rightPannelMnuCont li {
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .rightPannelMnuCont li a {
+
+            font-weight: 400;
+            font-size: 15px;
+            color: #221e1f;
+            display: block;
+            padding: 10px 20px;
+            transition: all 0.4s ease 0s;
+        }
+
+        .rightPannelMnuCont li a:hover img {
+            filter: brightness(0) invert(1);
+            -webkit-filter: brightness(0) invert(1);
+        }
+
+        .rightPannelMnuCont li a img {
+            margin-right: 10px;
+        }
+        
+        @media (max-width: 1023px) {
+            .topPannelNavCont {
+                display: none;
+            }
+
+            .development_header-row .devlopBannerCont .developContent {
+                margin-top: 13%;
+            }
+
+            .developmentMainContainer .dvlptMainLeftContainer.factTabCont {
+                width: 100%;
+            }
+
+        }
+
+        @media (max-width: 480px) {
+            .developmentMainContainer .externetMAinCont {
+                padding: 40px 20px 10px 20px;
+            }
+
+            .development_header-row .devlopBannerCont .developContent {
+                margin-top: 30%;
+                width: 90%;
+            }
+
+            .development_header-row .devlopBannerCont h2 {
+                font-size: 23px;
+                font-weight: 400;
+                text-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .development_header-row .devlopBannerCont .developContent {
+                max-width: 400px;
+                width: 100%;
+                margin-top: 10%;
+            }
+        }
+      </style>
+    <div class="development_header-row">
+
+        <div class="banner"> <img SRC="https://www.indusnet.co.in/images/fact-sheet.png" class="developBanner"> <img
+                SRC="https://www.indusnet.co.in/https://www.indusnet.co.in/images/factsheetTabBanner.png"
+                class="tabBanner">
+            <div class="devlopBannerCont">
+                <div class="developContent">
+                    <h2>Fact Sheet</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="developmentMainContainer clearfix">
+        <div class="container-fluid p-0">
+            <div class="topPannelNavCont ">
+                <div class="rightPannelMnuCont">
+                    <ul>
+                        <li>
+                            <a href="team.html"><img SRC="https://www.indusnet.co.in/images/rightNav_team.png"> Team</a>
+                        </li>
+                        <li>
+                            <a href="our-values.html"><img SRC="https://www.indusnet.co.in/images/rightNav_value.png">
+                                Our Values</a>
+                        </li>
+                        <li>
+                            <a href="why-us.html"><img SRC="https://www.indusnet.co.in/images/rightNav_whyus.png"> Why
+                                Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="quality-and-infra.html"><img
+                                    SRC="https://www.indusnet.co.in/images/rightNav_faculty.png"> Quality &amp; Infra
+                            </a>
+                        </li>
+                        <li>
+                            <a href="awards.html"><img SRC="https://www.indusnet.co.in/images/rightNav_award.png">
+                                Awards
+                            </a>
+                        </li>
+                        <li>
+                            <a href="news-room.html"><img SRC="https://www.indusnet.co.in/images/rightNav_news.png">
+                                Newsroom
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.indusnet.co.in/events-talk/"><img
+                                    SRC="https://www.indusnet.co.in/images/rightNav_events.png"> Events &amp; Talk</a>
+                        </li>
+                        <li>
+                            <a href="https://www.indusnet.co.in/careers/"><img
+                                    SRC="https://www.indusnet.co.in/images/rightNav_carrer.png"> Career
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       <!-- Your Content -->
+       <div class="container-fluid my-3">
+           <!-- Your Code Here -->
+           <div class="row p-2">
+            <div class="col-lg-4">
+                <img src="https://www.indusnet.co.in/images/resilience_quality.png" alt="" style="float: left;">
+              <h3 class="" style="margin-left:60px;">Quality</h3>
+                <ul class="mt-4" style="list-style: none;">
+                    <li>SO 9001 certified quality process framework</li>
+                    <li>ISO 27001 certified information security management</li>
+                    <li>ISO Protection of personality & identifiable information</li>
+                    <li>ISO 22301 Business Continuity Management</li>
+                    <li>ISO 20000-1 Service Management System</li>
+                    <li>SOC | type || Service Organization</li>
+                    <li>SOC || type || Service Organization</li>
+                    <li>PCI DSS Compliant Operations</li>
+                    <li>GDPR Compliant</li>
+                    <li>Privacy Shield</li>
+                    <li>HIPAA Compliant</li>
+                  </ul>
+            </div>
+            <div class="col-lg-4">
+                <img src="https://www.indusnet.co.in/images/resilience_location.png" alt="" style="float: left;">
+                <h3 class=""style="margin-left:60px;">Local Subsidiaries In</h3>
+                <ul class="mt-4 mx-auto" style="list-style: none;">
+                    <div class="row text-left">
+                    <div class="imgs col-xl-2"> 
+                        <img src="india.svg"  alt="" style="height: 90px;">
+                        INDIA
+                    </div>  
+                    <div class="imgs col-xl-2">
+                        <img src="singapore.svg" alt="" style="height: 90px;">
+                        SINGAPORE
+                    </div>
+                    <div class="imgs col-xl-2">
+                        <img src="uae.svg" alt="" style="height: 90px;">
+                        UAE
+                    </div>
+                    <div class="imgs col-xl-2">
+                        <img src="flag.svg" alt="" style="height: 90px;">
+                        US
+                    </div>
+                    <div class="imgs col-xl-2">
+                        <img src="uk (1).svg" alt="" style="height: 90px;">
+                        UK
+                    </div>
+                </div>
+                </ul>
+            </div>
+
+
+
+            <div class="col-lg-4">   
+                <img src="https://www.indusnet.co.in/images/resilience_mpa.png" alt="" style="float: left;">
+                <h3 style="margin-left:60px;">Member of professional Association</h3>
+                <ul class="mt-4" style="list-style: none;">
+                    <li>Infotech Software Dealer Association</li>
+                    <li>Gold Member ASIRT</li>
+                    <li>SME Chambers Of India</li>
+                    <li>TAIT India Leading Association</li>
+                    <li>INDO GERMAN | AHK</li>
+                    <li>IFCCI | CCI FRANCE-INDE INDO FRENCH CHANBER OF COMMERCE</li>
+                    <li>NASSCOM Members</li>
+                    <li>DSCI Promoting Data Protection</li>
+                  </ul>
+            </div>
+
+            <div class="col-lg-4">
+                <img src="https://www.indusnet.co.in/images/resilience_finance.png" alt="" style="float: left;">
+                <h3 style="margin-left:60px;">Financially Robust</h3>
+                <ul class="mt-4" style="list-style: none;">
+                    <li>One of the fastest growing IT companies in the Asia Pacific</li>
+                    <li>Rated SME2 i.e. "High Financial Strength" by CRISIL</li>
+                    <li>Debt free and profitable since inception</li>
+                    <li>Top line - ARR of US $10m</li>
+                  </ul>
+            </div>
+
+            <div class="col-lg-4">
+                <img src="https://www.indusnet.co.in/images/resilience_riskmanage.png" alt="" style="float: left;">
+                <h3 style="margin-left:60px;">Risk Management</h3>
+                <ul class="mt-4" style="list-style: none;">
+                    <li>Distributed workforce</li>
+                    <li>Distributed client base</li>
+                    <li>Distributed industry exposure and revenue channels</li>
+                    <li>Disaster Recover0y Center in Mumbai GPX  Tier 4 Datacenter</li>
+                    <li>Professional Indemnity Insurance</li>
+                  </ul>
+            </div>
+            <div class="col-lg-12">
+
+            </div>
+            </div>
+       </div>
+    </div>
+          
+          
+   
+            <!-- The untouched -->
+            
+        
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
