@@ -1,0 +1,475 @@
+<div class="development_header-row">
+
+        <div class="banner"> <img SRC="https://www.indusnet.co.in/images/fact-sheet.png" class="developBanner"> <img
+                SRC="https://www.indusnet.co.in/https://www.indusnet.co.in/images/factsheetTabBanner.png"
+                class="tabBanner">
+            <div class="devlopBannerCont">
+                <div class="developContent">
+                    <h2>Team</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="developmentMainContainer clearfix">
+        <div class="container-fluid p-0">
+            <div class="topPannelNavCont ">
+                <div class="rightPannelMnuCont">
+                    <ul>
+                        <li>
+                            <a href="team.html"><img SRC="https://www.indusnet.co.in/images/rightNav_team.png"> Team</a>
+                        </li>
+                        <li>
+                            <a href="our-values.html"><img SRC="https://www.indusnet.co.in/images/rightNav_value.png">
+                                Our Values</a>
+                        </li>
+                        <li>
+                            <a href="why-us.html"><img SRC="https://www.indusnet.co.in/images/rightNav_whyus.png"> Why
+                                Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="quality-and-infra.html"><img
+                                    SRC="https://www.indusnet.co.in/images/rightNav_faculty.png"> Quality &amp; Infra
+                            </a>
+                        </li>
+                        <li>
+                            <a href="awards.html"><img SRC="https://www.indusnet.co.in/images/rightNav_award.png">
+                                Awards
+                            </a>
+                        </li>
+                        <li>
+                            <a href="news-room.html"><img SRC="https://www.indusnet.co.in/images/rightNav_news.png">
+                                Newsroom
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.indusnet.co.in/events-talk/"><img
+                                    SRC="https://www.indusnet.co.in/images/rightNav_events.png"> Events &amp; Talk</a>
+                        </li>
+                        <li>
+                            <a href="https://www.indusnet.co.in/careers/"><img
+                                    SRC="https://www.indusnet.co.in/images/rightNav_carrer.png"> Career
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+<!--      header end  -->
+      
+       <div class="container mt-3">
+         <h3 class="text-center my-4">
+            MANAGEMENT TEAM
+          </h3>
+        <div class="row">
+          
+            <div class="col-lg-6">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="https://www.xcellhost.cloud/wp-content/uploads/2017/07/md.png" alt=""
+                                style="height: 150px;">
+                        </div>
+                        <div class="col-lg-6">
+                            <span class="head">Samir Jheveri</span><br>
+                            <span>Managing Director</span><br>
+                            <button class="btn btn-secondary">FOLLOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <p class="mt-2">Mr. Samir Jhaveri is the Founder and CEO of XcellHost. He pilots the XcellHost
+                        strategic direction with a focus on relentlessly improving the existing offerings while
+                        constantly searching for the next generation of business excellence.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="https://www.xcellhost.cloud/wp-content/uploads/2017/07/businesswoman-female.png"
+                                alt="" style="height: 150px;">
+                        </div>
+                        <div class="col-lg-6 ">
+                            <span class="head">Dr. Abha Jheveri</span><br>
+                            <span>Director</span><br>
+                            <button class="btn btn-secondary">FOLLOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <p class="mt-2">Mrs. Abha Jhaveri is the Director and has been contributing in strategy building and
+                        in achieving operational excellence. She has been instrumental in the growth and success of
+                        XcellHost.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+      <h3 class="text-center my-4">
+            OUR CORE TEAM
+          </h3>
+        <div class="row">
+          
+            <div class="col-lg-4 mx-auto">
+                <div class="col text-center">
+                    <img src="https://www.xcellhost.cloud/wp-content/uploads/2019/06/vincent-mathaies.png" alt=""
+                        height="150px">
+                </div>
+                <div class="col">
+                    <div class="icons text-center mt-2">
+                        <a href=""><img src="https://cdn2.hubspot.net/hubfs/6706555/whatsup.svg" alt="" height="30px"></a>
+                        <a href=""><img src="https://cdn2.hubspot.net/hubfs/6706555/twitter.svg" alt="" height="30px"></a>
+                        <a href=""><img src="https://cdn2.hubspot.net/hubfs/6706555/linkdin.svg" alt="" height="30px"></a>
+                    </div>
+                    <p class="head text-center">Vincent Mathias</p>
+                    <p class="text-center">Mr. Vincent Mathias is a Professional in Managing Finance, Sales & Purchase
+                        with over 7 years of experience in hosting and cloud industry.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 mx-auto">
+                <div class="col text-center">
+                    <img src="https://www.xcellhost.cloud/wp-content/uploads/2019/06/vincent-mathaies.png" alt=""
+                        height="150px">
+                </div>
+                <div class="col">
+                    <div class="icons text-center mt-2">
+                        <a href=""><img src="https://cdn2.hubspot.net/hubfs/6706555/twitter.svg" alt="" height="30px"></a>
+                        <a href=""><img src="https://cdn2.hubspot.net/hubfs/6706555/linkdin.svg" alt="" height="30px"></a>
+                        <a href=""><img src="https://cdn2.hubspot.net/hubfs/6706555/whatsup.svg" alt="" height="30px"></a>
+                    </div>
+                    <p class="head text-center">Vincent Mathias</p>
+                    <p class="text-center">Mr. Vincent Mathias is a Professional in Managing Finance, Sales & Purchase
+                        with over 7 years of experience in hosting and cloud industry.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 mx-auto">
+                <div class="col text-center">
+                    <img src="https://www.xcellhost.cloud/wp-content/uploads/2019/06/vincent-mathaies.png" alt=""
+                        height="150px">
+                </div>
+                <div class="col">
+                    <div class="icons text-center mt-2">
+                        <a href=""><img src="https://cdn2.hubspot.net/hubfs/6706555/whatsup.svg" alt="" height="30px"></a>
+                        <a href=""><img src="https://cdn2.hubspot.net/hubfs/6706555/twitter.svg" alt="" height="30px"></a>
+                        <a href=""><img src="https://cdn2.hubspot.net/hubfs/6706555/linkdin.svg" alt="" height="30px"></a>
+                    </div>
+                    <p class="head text-center">Vincent Mathias</p>
+                    <p class="text-center">Mr. Vincent Mathias is a Professional in Managing Finance, Sales & Purchase
+                        with over 7 years of experience in hosting and cloud industry.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 mx-auto">
+                <div class="col text-center">
+                    <img src="https://www.xcellhost.cloud/wp-content/uploads/2019/06/vincent-mathaies.png" alt=""
+                        height="150px">
+                </div>
+                <div class="col">
+                    <div class="icons text-center mt-2">
+                        <a href=""><img src="https://cdn2.hubspot.net/hubfs/6706555/whatsup.svg" alt="" height="30px"></a>
+                        <a href=""><img src="https://cdn2.hubspot.net/hubfs/6706555/twitter.svg" alt="" height="30px"></a>
+                        <a href=""><img src="https://cdn2.hubspot.net/hubfs/6706555/linkdin.svg" alt="" height="30px"></a>
+                    </div>
+                    <p class="head text-center">Vincent Mathias</p>
+                    <p class="text-center">Mr. Vincent Mathias is a Professional in Managing Finance, Sales & Purchase
+                        with over 7 years of experience in hosting and cloud industry.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 mx-auto">
+                <div class="col text-center">
+                    <img src="https://www.xcellhost.cloud/wp-content/uploads/2019/06/vincent-mathaies.png" alt=""
+                        height="150px">
+                </div>
+                <div class="col">
+                    <div class="icons text-center mt-2">
+                        <a href=""><img src="https://cdn2.hubspot.net/hubfs/6706555/whatsup.svg" alt="" height="30px"></a>
+                        <a href=""><img src="https://cdn2.hubspot.net/hubfs/6706555/twitter.svg" alt="" height="30px"></a>
+                        <a href=""><img src="https://cdn2.hubspot.net/hubfs/6706555/linkdin.svg" alt="" height="30px"></a>
+                    </div>
+                    <p class="head text-center">Vincent Mathias</p>
+                    <p class="text-center">Mr. Vincent Mathias is a Professional in Managing Finance, Sales & Purchase
+                        with over 7 years of experience in hosting and cloud industry.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 mx-auto">
+                <div class="col text-center">
+                    <img src="https://www.xcellhost.cloud/wp-content/uploads/2019/06/vincent-mathaies.png" alt=""
+                        height="150px">
+                </div>
+                <div class="col">
+                    <div class="icons text-center mt-2">
+                        <a href=""><img src="https://cdn2.hubspot.net/hubfs/6706555/whatsup.svg" alt="" height="30px"></a>
+                        <a href=""><img src="https://cdn2.hubspot.net/hubfs/6706555/twitter.svg" alt="" height="30px"></a>
+                        <a href=""><img src="https://cdn2.hubspot.net/hubfs/6706555/linkdin.svg" alt="" height="30px"></a>
+                    </div>
+                    <p class="head text-center">Vincent Mathias</p>
+                    <p class="text-center">Mr. Vincent Mathias is a Professional in Managing Finance, Sales & Purchase
+                        with over 7 years of experience in hosting and cloud industry.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+      <h3 class="text-center my-4">
+            TEAM STATISTICS
+          </h3>
+        <div class="row">
+          
+            <div class="col-lg-4 border">
+                <div class="col">
+                    <img src="https://cdn2.hubspot.net/hubfs/6706555/img-stat-variety-1.png" alt="" height="90px">
+                    <span>Can Speak 21 Languages.</span>
+                </div>
+                <div class="col">
+                    <img src="https://cdn2.hubspot.net/hubfs/6706555/img-stat-variety-2.png" alt="" height="90px">
+                    <span>Belongs to 24 Different States.</span>
+                </div>
+            </div>
+            <div class="col-lg-4 border">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <img src="https://cdn2.hubspot.net/hubfs/6706555/img-pie-chart-1.png" alt="" height="200px">
+                    </div>
+                    <div class="col-lg-7">
+                        <ul>Gender Ratio
+                            <li>Male – 44%</li>
+                            <li>Female – 56%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 border">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <img src="https://cdn2.hubspot.net/hubfs/6706555/img-pie-chart-2.png" alt="" height="200px">
+                    </div>
+                    <div class="col-lg-7">
+                        <ul>Age Profile     
+                            <li>20 to 25 Yrs. – 16%</li>
+                            <li>26 to 35 Yrs. – 72%</li>
+                            <li>36 to 45 Yrs. – 11%</li>
+                            <li>46 Yrs. and above – 1%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 border">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <img src="https://cdn2.hubspot.net/hubfs/6706555/img-pie-chart-3.png" alt="" height="200px">
+                    </div>
+                    <div class="col-lg-7">
+                        <ul>Education Profile
+                            <li>Bachelors – 58%</li>
+                            <li>Masters – 34%</li>
+                            <li>Others – 8%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 border">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <img src="https://cdn2.hubspot.net/hubfs/6706555/img-pie-chart-4.png" alt="" height="200px">
+                    </div>
+                    <div class="col-lg-7">
+                        <ul>Education Dicipline Profile
+                            <li>Commerce/Business – 13%</li>
+                            <li>Engineering/Science – 78%</li>
+                            <li>Arts/Humanities – 9%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 border">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <img src="https://cdn2.hubspot.net/hubfs/6706555/img-pie-chart-5.png" alt="" height="200px">
+                    </div>
+                    <div class="col-lg-7">
+                        <ul>Years Spent at Indus Net Technologies
+                            <li><= 3 Years – 30%</li>
+                            <li>>= 5 Years – 27%</li>
+                            <li>>=3 Years – 43%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -->
+    .development_header-row {
+            width: 100%;
+            position: relative;
+        }
+
+        .banner {
+            position: relative;
+        }
+
+        @media (max-width: 1920px) {
+            .development_header-row .developBanner {}
+        }
+
+        .development_header-row .developBanner {
+            width: 100%;
+            position: relative;
+            z-index: 9;
+        }
+
+        .development_header-row .tabBanner {
+            display: none;
+        }
+
+        .development_header-row .devlopBannerCont {
+            width: 100%;
+            z-index: 99;
+            position: absolute;
+            display: table;
+            text-align: center;
+            top: 0;
+        }
+
+        .development_header-row .devlopBannerCont .developContent {
+            width: 610px;
+            float: left;
+            position: relative;
+            left: 3%;
+            margin-top: 155px;
+            text-align: left;
+        }
+
+        .development_header-row .devlopBannerCont h2 {
+            margin-bottom: 20px;
+            font-size: 35px;
+            color: #0b53a3;
+            font-family: Roboto, sans-serif;
+            font-weight: 300;
+        }
+
+        .developmentMainContainer {
+            margin: 0;
+            width: 100%;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+
+        .clearfix:before,
+        .clearfix:after {
+            display: table;
+            line-height: 0;
+            content: "";
+        }
+
+        p {
+            display: block;
+            margin-block-start: 0;
+            margin-block-end: 0;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .rightPannelMnuCont li a:hover {
+            color: #fff;
+            background: #3b4196;
+        }
+
+        .developmentMainContainer .dvlptMainLeftContainer {
+
+            float: left;
+            padding-bottom: 20px;
+        }
+
+        .developmentMainContainer .externetMAinCont {
+            width: 100%;
+            padding: 40px 10px 10px 40px;
+        }
+
+        .topPannelNavCont {
+
+            border: 1px solid #ddd;
+        }
+
+        .rightPannelMnuCont {
+            width: 100%;
+        }
+
+        .rightPannelMnuCont ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .rightPannelMnuCont li {
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .rightPannelMnuCont li a {
+
+            font-weight: 400;
+            font-size: 15px;
+            color: #221e1f;
+            display: block;
+            padding: 10px 20px;
+            transition: all 0.4s ease 0s;
+        }
+
+        .rightPannelMnuCont li a:hover img {
+            filter: brightness(0) invert(1);
+            -webkit-filter: brightness(0) invert(1);
+        }
+
+        .rightPannelMnuCont li a img {
+            margin-right: 10px;
+        }
+        
+        @media (max-width: 1023px) {
+            .topPannelNavCont {
+                display: none;
+            }
+
+            .development_header-row .devlopBannerCont .developContent {
+                margin-top: 13%;
+            }
+
+            .developmentMainContainer .dvlptMainLeftContainer.factTabCont {
+                width: 100%;
+            }
+
+        }
+
+        @media (max-width: 480px) {
+            .developmentMainContainer .externetMAinCont {
+                padding: 40px 20px 10px 20px;
+            }
+
+            .development_header-row .devlopBannerCont .developContent {
+                margin-top: 30%;
+                width: 90%;
+            }
+
+            .development_header-row .devlopBannerCont h2 {
+                font-size: 23px;
+                font-weight: 400;
+                text-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .development_header-row .devlopBannerCont .developContent {
+                max-width: 400px;
+                width: 100%;
+                margin-top: 10%;
+            }
+        }
+/*  header end*/
+.head {
+            font-size: 30px;
+            font-weight: 200;
+        }
