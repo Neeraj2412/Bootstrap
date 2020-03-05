@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <style>
+          .one{
+            background-color: #1b144d;
+            
+          }
+          p{
+              color:white;
+          }
+          .one:hover, .one:hover p{
+            background-color: white;
+            color: black;
+          }
+          .tabcontent{
+              display: none;
+          }
+      </style>
+      <div class="container">
+          <div class="row">
+              <!-- ROW1 -->
+              <div class="col-lg-3 one tablinks" onclick="openCity(event, 'London')">
+                <ul style="list-style: none;">
+                <li>
+                    <p>Software Development &amp; <br>Quality Engineering</p>
+                    <img src="//careers.jobvite.com/rackspace/2019/icons/icon-development.png" alt="">
+                </li>
+                </ul>
+              </div>
+              
+              <div class="col-lg-3 one tablinks" onclick="openCity(event, 'Paris')">
+                <ul style="list-style: none;">
+                <li>
+                  <p>Software Development &amp; <br>Quality Engineering</p>
+                  <img src="//careers.jobvite.com/rackspace/2019/icons/icon-development.png" alt="">
+                </li>
+                </ul>
+              </div>
+
+              <div class="col-lg-3 one tablinks" onclick="openCity(event, 'Paris')">
+                <ul style="list-style: none;">
+                <li>
+                  <p>Software Development &amp; <br>Quality Engineering</p>
+                  <img src="//careers.jobvite.com/rackspace/2019/icons/icon-development.png" alt="">
+                </li>
+                </ul>
+              </div>
+
+              <div class="col-lg-3 one tablinks" onclick="openCity(event, 'Paris')">
+                <ul style="list-style: none;">
+                <li>
+                  <p>Software Development &amp; <br>Quality Engineering</p>
+                  <img src="//careers.jobvite.com/rackspace/2019/icons/icon-development.png" alt="">
+                </li>
+                </ul>
+              </div>
+
+              <!-- ROW1 CLOSE -->   
+          </div>
+      </div>
+      <div class="container tabcontent" id="London">
+        <div class="row">
+            <div class="col-lg-3"><h2>Email Marketer1</h2>
+              <h4>Category: Marketing</h4>
+              <button class="btn btn-primary mt-5">Hello</button>    
+              <button class="btn btn-secondary mt-5">Seakers</button></div>
+            <div class="col-lg-3"><h2>Email Marketer</h2>
+              <h4>Category: Marketing</h4>
+              <button class="btn btn-primary mt-5">Hello</button>    
+              <button class="btn btn-secondary mt-5">Seakers</button> 
+          </div>
+          <div class="col-lg-3"><h2>Email Marketer</h2>
+              <h4>Category: Marketing</h4>
+              <button class="btn btn-primary mt-5">Hello</button>    
+              <button class="btn btn-secondary mt-5">Seakers</button></div>
+            <div class="col-lg-3"><h2>Email Marketer</h2>
+              <h4>Category: Marketing</h4>
+              <button class="btn btn-primary mt-5">Hello</button>    
+              <button class="btn btn-secondary mt-5">Seakers</button> 
+          </div> 
+        </div>
+    </div>
+
+    <div class="container tabcontent" id="Paris">
+        <div class="row">
+            <div class="col-lg-3"><h2>Email Marketer2</h2>
+              <h4>Category: Marketing</h4>
+              <button class="btn btn-primary mt-5">Hello</button>    
+              <button class="btn btn-secondary mt-5">Seakers</button></div>
+            <div class="col-lg-3"><h2>Email Marketer</h2>
+              <h4>Category: Marketing</h4>
+              <button class="btn btn-primary mt-5">Hello</button>    
+              <button class="btn btn-secondary mt-5">Seakers</button> 
+          </div>
+          <div class="col-lg-3"><h2>Email Marketer</h2>
+              <h4>Category: Marketing</h4>
+              <button class="btn btn-primary mt-5">Hello</button>    
+              <button class="btn btn-secondary mt-5">Seakers</button></div>
+            <div class="col-lg-3"><h2>Email Marketer</h2>
+              <h4>Category: Marketing</h4>
+              <button class="btn btn-primary mt-5">Hello</button>    
+              <button class="btn btn-secondary mt-5">Seakers</button> 
+          </div> 
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+    function openCity(evt, tabRotate) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
+      
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+      
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+      
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(tabRotate).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+    </script>
+</body>
+</html>
