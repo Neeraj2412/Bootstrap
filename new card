@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <style>
+           @media only screen and (max-width: 375px){
+            .img{
+               width: 340px;
+               height: 200px;
+            } 
+          }
+      </style>
+      <div class="container">
+          <div class="row text-center">
+              <div class="col-lg-6">
+                  <img class="mx-md-5 img" src="dedicated1.png" alt="" width="390px" height="200px">
+                  <h3 class="mt-1 ml-sm-5 text-center" >NVIDIA TESLA V100</h3>
+                  <p class="mt-1 ml-sm-5 text-center" >NVIDIA Tesla V100 is the most advanced data center GPU ever built by NVIDIA specially for the most demanding task and problems related to deep learning, Machine Learning, and Graphics</p>
+              </div>
+              <div class="col-lg-6">
+                <img class="mx-md-5 img" src="dedicated.png" alt="" width="390px" height="200px">
+                <h3 class="mt-1  text-center">NVIDIA TESLA V4</h3>
+                <p class="mt-1  text-center" >NVIDIA T4 enterprise GPUs and CUDA-x acceleration libraries superchange mainstream servers,designed for today's modern data center. With NGC-Ready validation, these servers excel across the ful range of accelerated workloads</p>
+              </div>
+          </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
