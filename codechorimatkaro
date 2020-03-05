@@ -1,0 +1,116 @@
+<div class="container">
+          <div class="row">
+              <!-- ROW1 -->
+              <div class="col-lg-3 one tablinks" id="first">
+                <ul style="list-style: none;">
+                <li>
+                    <p>Software Development &amp; <br>Quality Engineering</p>
+                    <img src="//careers.jobvite.com/rackspace/2019/icons/icon-development.png" alt="">
+                </li>
+                </ul>
+              </div>
+              
+              <div class="col-lg-3 one tablinks" id="second">
+                <ul style="list-style: none;">
+                <li>
+                  <p>Software Development &amp; <br>Quality Engineering</p>
+                  <img src="//careers.jobvite.com/rackspace/2019/icons/icon-development.png" alt="">
+                </li>
+                </ul>
+              </div>
+
+              <div class="col-lg-3 one tablinks"  id="third">
+                <ul style="list-style: none;">
+                <li>
+                  <p>Software Development &amp; <br>Quality Engineering</p>
+                  <img src="//careers.jobvite.com/rackspace/2019/icons/icon-development.png" alt="">
+                </li>
+                </ul>
+              </div>
+
+              <div class="col-lg-3 one tablinks"  id="fourth">
+                <ul style="list-style: none;">
+                <li>
+                  <p>Software Development &amp; <br>Quality Engineering</p>
+                  <img src="//careers.jobvite.com/rackspace/2019/icons/icon-development.png" alt="">
+                </li>
+                </ul>
+              </div>
+
+              <!-- ROW1 CLOSE -->   
+          </div>
+      </div>
+      <div class="container tabcontent" id="firstcon">
+        <div class="row">
+            <div class="col-lg-3"><h2>Email Marketer1</h2>
+              <h4>Category: Marketing</h4>
+              <button class="btn btn-primary mt-5">Hello</button>    
+              <button class="btn btn-secondary mt-5">Seakers</button></div>
+            <div class="col-lg-3"><h2>Email Marketer</h2>
+              <h4>Category: Marketing</h4>
+              <button class="btn btn-primary mt-5">Hello</button>    
+              <button class="btn btn-secondary mt-5">Seakers</button> 
+          </div>
+          <div class="col-lg-3"><h2>Email Marketer</h2>
+              <h4>Category: Marketing</h4>
+              <button class="btn btn-primary mt-5">Hello</button>    
+              <button class="btn btn-secondary mt-5">Seakers</button></div>
+            <div class="col-lg-3"><h2>Email Marketer</h2>
+              <h4>Category: Marketing</h4>
+              <button class="btn btn-primary mt-5">Hello</button>    
+              <button class="btn btn-secondary mt-5">Seakers</button> 
+          </div> 
+        </div>
+    </div>
+
+    <div class="container tabcontent" id="secondcon">
+        <div class="row">
+            <div class="col-lg-3"><h2>Email Marketer2</h2>
+              <h4>Category: Marketing</h4>
+              <button class="btn btn-primary mt-5">Hello</button>    
+              <button class="btn btn-secondary mt-5">Seakers</button></div>
+            <div class="col-lg-3"><h2>Email Marketer</h2>
+              <h4>Category: Marketing</h4>
+              <button class="btn btn-primary mt-5">Hello</button>    
+              <button class="btn btn-secondary mt-5">Seakers</button> 
+          </div>
+          <div class="col-lg-3"><h2>Email Marketer</h2>
+              <h4>Category: Marketing</h4>
+              <button class="btn btn-primary mt-5">Hello</button>    
+              <button class="btn btn-secondary mt-5">Seakers</button></div>
+            <div class="col-lg-3"><h2>Email Marketer</h2>
+              <h4>Category: Marketing</h4>
+              <button class="btn btn-primary mt-5">Hello</button>    
+              <button class="btn btn-secondary mt-5">Seakers</button> 
+          </div> 
+        </div>
+    </div>
+    
+    
+    .one{
+            background-color: #1b144d;
+            
+          }
+          p{
+              color:white!important;
+          }
+          .one:hover, .one:hover p{
+            background-color: white;
+            color: black!important;
+          }
+/*           .tabcontent{
+              display: none;
+          } */
+          
+          
+          $("document").ready(function(){
+  $(".tabcontent").hide();
+  $("#first").click(function(){
+    $(".tabcontent").hide();
+  $("#firstcon").show();
+  })
+  $("#second").click(function(){
+  $(".tabcontent").hide();
+  $("#secondcon").show();
+  })
+})
