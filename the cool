@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <style>
+        #demobtn{
+    display: inline-block;
+    padding: 8px;
+    background: #6f839a;
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    vertical-align: top;
+    border-radius: 60px;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    line-height: 35px;
+    padding-top: 12px;
+    margin-right: 20px;
+    margin-top: 5;background-color:#38ac48px;
+    }
+    .h3btn{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+    margin: 0px auto 80px;
+    color: #000;
+    line-height: 48px;
+    letter-spacing: 1px;
+    }
+    li{
+        width: ;
+    }
+        @media only screen and (max-width: 320px){
+            .respbtn{
+                font-size: 20px;
+            }
+        }
+    </style>
+    
+    <div class="container">
+        <div class="row">
+            <h3 class="h3btn mx-5 my-5" style="">TOP REASONS WHY FILECLOUD IS RIGHT FOR YOUR ORGANIZATION</h3>
+            <div class="col-sm-6">
+            <div class="organization-box-content">
+                <div class="organization-list-number" id="demobtn" style="float: left;background-color:#38ac48">1
+                </div>
+                <h4 class="respbtn">Provide secure access to enterprise data from any device</h4>
+                <ul  style="margin-top: 30px;margin-left: 58px;">
+                     <li>Multiple ways to access data securely: Web access, Sync, Remote Drive, Mobile Apps, Outlook Add-on</li>
+                     <li>Private dropbox like sync to employees and partners</li>
+                     <li>Alternative to archaic VPN and FTP</li>
+                </ul>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="organization-box-content">
+                    <div class="organization-list-number" id="demobtn" style="float: left;background-color:#118ccf">2
+                    </div>
+                    <h4 class="respbtn"> 
+                        Get total control, privacy and security</h4>
+                    <ul style="margin-top: 45px;margin-left: 58px;">
+                         <li>Keep data within your company, retaining full control of the data</li>
+                         <li>Detailed audit capabilities to meet regulations (HIPAA, HITECH & FINRA)</li>
+                         <li>Complete control over file sharing among employees, vendors, customers</li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="organization-box-content">
+                        <div class="organization-list-number" id="demobtn" style="float: left;background-color:#cd1367">3
+                        </div>
+                        <h4 class="respbtn">Protect business critical data</h4>
+                        <ul style="margin-top: 40px;margin-left: 58px;">
+                             <li>Powerful administrator tools to manage users, devices, activities</li>
+                             <li>Protect your data using endpoint backup and versioning</li>
+                             <li>Prevent data leaks using remote mobile wipe / block features</li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="organization-box-content">
+                            <div class="organization-list-number" id="demobtn" style="float: left;background-color:#0052a3">4
+                            </div>
+                            <h4 class="respbtn">Customize to reflect organization’s brand</h4>
+                            <ul style="margin-top: 40px; margin-left: 58px;">
+                                 <li>Customize to reflect organization’s brand</li>
+                                 <li>Complete white label EFSS solution, superior customization options including mobile customization to build your organization’s brand</li>
+                                 <li>Ideal for IT managed service providers and value added resellers</li>
+                            </ul>
+                            </div>
+                        </div> 
+                        <div class="col-sm-6">
+                            <div class="organization-box-content">
+                                <div class="organization-list-number" id="demobtn" style="float: left;background-color:#959c9e">5
+                                </div>
+                                <h4 class="respbtn"> 
+                                    Integrate easily with existing IT Systems</h4>
+                                <ul style="margin-top: 40px;margin-left: 58px;">
+                                     <li>Works with Network shares, Active Directory, NTLM SSO</li>
+                                     <li>Seamless integration with existing NTFS file permissions</li>
+                                     <li>Powerful APIs to integrate with your business processes</li>
+                                </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="organization-box-content">
+                                    <div class="organization-list-number" id="demobtn" style="float: left;background-color:#f47f11">6
+                                    </div>
+                                    <h4 class="respbtn">Maximize your ROI</h4>
+                                    <ul style="margin-top: 40px;margin-left: 58px;">
+                                         <li>Leverage your existing investment in IT infrastructure</li>
+                                         <li>Best value among file sharing solutions</li>
+                                         <li>All inclusive pricing that includes software updates and support</li>
+                                    </ul>
+                                    </div>
+                                </div> 
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
