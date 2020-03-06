@@ -1,0 +1,388 @@
+  <div class="container-large pricing-table mx-auto">
+  <div class="">
+    <div class="row">
+      <div class="col-md-6">
+        <h4 class="text-capitalize font-weight-400 text-capitalize">operating system </h4>
+        <div class="btn-group py-md-3" role="group" aria-label="Basic example">
+          <button type="button" class="btn text-capitalize btn-os active-btn"><i class="fa fa-linux pr-2" aria-hidden="true"></i> Linux</button>
+          <button type="button" class="btn text-capitalize btn-os"><i class="fa fa-windows pr-2" aria-hidden="true"></i> windows</button>
+        </div>
+      </div>
+      <div class="col-md-6 mt-3 mt-lg-0 ">
+        <h4 class="text-capitalize font-weight-400 text-capitalize">payment method </h4>
+        <!-- desktop group button -->
+        <div class="btn-group pl-3 row " role="group" aria-label="Basic example">
+          <button type="button" class="btn col-6 col-md-4 text-capitalize px-1 btn-payment active-btn">pay as you go /hr</button>
+          <button type="button" class="btn col-6 col-md-4 text-capitalize px-1 btn-payment">monthly /mo</button>
+          <button type="button" class="btn col-6 col-md-4 text-capitalize px-1 btn-payment">reserved instance</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class=" mt-2 mt-md-3 ">
+        <h4 class="text-capitalize font-weight-400 text-capitalize">choose cloud service as per your workloads </h4>
+        <!-- desktop group button -->
+        <div class="btn-group py-3 flex-column flex-sm-row  d-none d-md-table" role="group" aria-label="Basic example">
+          <button type="button" class="btn text-capitalize btn-workload active-btn">general purpose</button>
+          <button type="button" class="btn text-capitalize btn-workload"> CPU optimized</button>
+          <button type="button" class="btn text-capitalize btn-workload"> memory optimized</button>
+          <button type="button" class="btn text-capitalize btn-workload"> storage optimized</button>
+        </div>
+        <!-- mobile view button -->
+        <select class="custom-select workload d-md-none text-capitalize mb-3" id="inputGroupSelect04" aria-label="Example select with button addon">
+          <option class="text-capitalize" selected>general purpose</option>
+          <option class="text-capitalize" value="1">CPU optimized</option>
+          <option class="text-capitalize" value="2"> memory optimized</option>
+          <option class="text-capitalize" value="3">storage optimized</option>
+        </select>
+
+  </div>
+
+  <div class="py-2 ">
+     <span class="font-weight-bold">G-Series Use Case - </span>Websites & web application, development environments, build server, code repositoriesm, micro services, test & staging environments, and line of business applications.
+   </div>
+
+  <!-- Table here -->
+      <div class="table-responsive mfont-weight-boldy-3">
+        <table class="table text-center">
+          <thead class="bgcolor">
+            <tr class="text-lg text-center">
+              <th class=" text-capitalize text-white">General purpose g series</th>
+              <th class=" text-white">vCPU (in core)</th>
+              <th class=" text-white">vRAM (in GB)</th>
+              <th class=" text-white">vDisk (in GB)</th>
+              <th class="text-capitalize text-white">geekbench score</th>
+              <th class=" text-capitalize text-white">total data transfer</th>
+              <th class=" text-capitalize text-white">price</th>
+              <th class=" text-capitalize text-white">price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+            <td>G2. GB</td>
+            <td>1</td>
+            <td>2</td>
+            <td>25</td>
+            <td>
+              <div class="crumina-module crumina-skills-item">
+									<div class="skills-item-meter">
+										<span class="skills-item-meter-active bg-accent-primary skills-animate" style="width:40%; opacity: 1;background-color:#ce2232"></span>
+									</div>
+              </div>
+            </td>
+            <td>2 TB</td>
+            <td>₹ 365.00</td>
+            <td><a class="btn btn-primary"  href="">Order Now</a></td>
+            </tr>
+            
+            <tr>
+            <td>G2.2 GB</td>
+            <td>1</td>
+            <td>2</td>
+            <td>50</td>
+            <td>
+              <div class="crumina-module crumina-skills-item">
+									<div class="skills-item-meter">
+										<span class="skills-item-meter-active bg-accent-primary skills-animate" style="width:45%; opacity: 1;background-color:#2196f3"></span>
+									</div>
+              </div>
+            </td>
+            <td>3 TB</td>
+            <td>₹ 730.00</td>
+            <td><a class="btn btn-primary"  href="">Order Now</a></td>
+            </tr>
+    
+            <tr>
+            <td>G2.4 GB</td>
+            <td>2</td>
+            <td>4</td>
+            <td>75</td>
+            <td>
+              <div class="crumina-module crumina-skills-item">
+									<div class="skills-item-meter">
+										<span class="skills-item-meter-active bg-accent-primary skills-animate" style="width:50%; opacity: 1;background-color:#209e4a"></span>
+									</div>
+              </div>
+            </td>
+            <td>4 TB</td>
+            <td>₹ 1,460.00</td>
+            <td><a class="btn btn-primary"  href="">Order Now</a></td>
+            </tr>
+    
+            <tr>
+            <td>G2.16 GB</td>
+            <td>6</td>
+            <td>16</td>
+            <td>200</td>
+            <td>
+              <div class="crumina-module crumina-skills-item">
+									<div class="skills-item-meter">
+										<span class="skills-item-meter-active bg-accent-primary skills-animate" style="width:55%; opacity: 1;background-color:#fec601"></span>
+									</div>
+              </div>
+            </td>
+            <td>6 TB</td>
+            <td>₹ 4,745.00</td>
+            <td><a class="btn btn-primary"  href="">Order Now</a></td>
+            </tr>
+    
+            <tr>
+            <td>G2.32 GB</td>
+            <td>8</td>
+            <td>32</td>
+            <td>300</td>
+            <td>
+              <div class="crumina-module crumina-skills-item">
+									<div class="skills-item-meter">
+										<span class="skills-item-meter-active bg-accent-primary skills-animate" style="width:60%; opacity: 1;background-color:#ed008c"></span>
+									</div>
+              </div>
+            </td>
+            <td>7 TB</td>
+            <td>₹ 8,760.00</td>
+            <td><a class="btn btn-primary"  href="">Order Now</a></td>
+            </tr>
+            
+            <tr>
+            <td>G2.48 GB</td>
+            <td>12</td>
+            <td>48</td>
+            <td>400</td>
+            <td>
+              <div class="crumina-module crumina-skills-item">
+									<div class="skills-item-meter">
+										<span class="skills-item-meter-active bg-accent-primary skills-animate" style="width:65%; opacity: 1;background-color:#6e6fdb"></span>
+									</div>
+              </div>
+            </td>
+            <td>8 TB</td>
+            <td>₹ 14,965.00</td>
+            <td><a class="btn btn-primary"  href="">Order Now</a></td>
+            </tr>
+            
+            
+            <tr>
+            <td>G2.64 GB</td>
+            <td>16</td>
+            <td>64</td>
+            <td>500</td>
+            <td>
+              <div class="crumina-module crumina-skills-item">
+									<div class="skills-item-meter">
+										<span class="skills-item-meter-active bg-accent-primary skills-animate" style="width:70%; opacity: 1;background-color:#494949"></span>
+									</div>
+              </div>
+            </td>
+            <td>9 TB</td>
+            <td>₹ 16,425.00</td>
+            <td><a class="btn btn-primary"  href="">Order Now</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </div>
+  
+  
+  ////////
+    #fs {
+    font-size: 10px;
+  }
+
+  .bgcolor {
+    background-color:#007bff ;
+    /* background-image: linear-gradient(315deg, #4d5dfb 0%, #08c8f6 74%); */
+  }
+
+  .imgset {
+    position: absolute;
+    left: 0;
+    padding-left: 10px;
+  }
+
+  .padd {
+    padding: 0px;
+  }
+
+  .marg {
+    margin-left: -11px;
+  }
+
+  #yclo {
+    border-radius: 3px;
+    font-size: 10px;
+    color: white;
+  }
+
+  #smbtn {
+    font-size: 15px;
+    border-radius: 0px;
+  }
+
+  #sq {
+    border-radius: 0px;
+    background-color: white;
+    border-color: grey;
+    color: black;
+  }
+
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+  }
+
+  table>tbody>tr>td:first-child {
+    border-right: none;
+    position: relative;
+  }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #dfe6ec;
+    font-size: 14px;
+  }
+
+  .table_row {
+    height: 40px;
+    border-bottom: 1px dashed !important;
+  }
+
+  table>tbody>tr:hover>td:first-child:before {
+    opacity: 1;
+  }
+
+  table>tbody>tr>td:first-child:before {
+    content: '';
+    display: block;
+    width: 3px;
+    height: 100%;
+    background-color: #4285f4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+
+  .table {
+    border: none
+  }
+
+  .table th {
+    border: none;
+    font-size:16px;
+  }
+
+  table>tbody>tr:hover {
+    -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .1), inset 4px 0 0 0 rgba(100, 25, 255, .004);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .1), inset 4px 0 0 0 rgba(100, 25, 255, .004);
+  }
+
+  .table tbody td {
+    border-bottom: 2px dashed #dee2e6;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #hide_me {
+      display: none;
+    }
+
+    #hide_me_first {
+      display: block;
+    }
+
+    #yclo {
+      color: White;
+    }
+  }
+
+  @media only screen and (max-width: 962px) {
+    #hide_me {
+      display: none;
+    }
+
+    #hide_me_first {
+      display: block;
+    }
+
+    #yclo {
+      color: White;
+    }
+  }
+  .pricing-table button{
+    min-width:150px;
+    background-color:lightgray;
+    border-radius:0
+  }
+  .pricing-tables-wrap-table .skills-wrap .crumina-skills-item {
+      width: 100%;
+      min-width: 40px;
+  }
+  .skills-item-meter {
+      padding: 0 5px;
+      width: 100%;
+      border-radius: 10px;
+      background-color: #ebf2f8;
+      position: relative;
+      height: 15px;
+  }
+  .skills-item-meter-active.skills-animate {
+      -webkit-animation: skills-animated 1.2s ease-out;
+      animation: skills-animated 1.2s ease-out;
+  }
+  .bg-accent-primary {
+      background-color:#6419ff;
+  }
+  .skills-item-meter-active {
+      position: absolute;
+      display: inline-block;
+      border-radius: 5px 0 0 5px;
+      bottom: 0;
+      left: 0;
+      -webkit-transition: all .2s ease;
+      -o-transition: all .2s ease;
+      transition: all .2s ease;
+      color:#272a2c;
+      height: 100%;
+  }
+.workload{
+  width:200px;
+}
+.active-btn{
+  background-color:#007bff !important;
+  color:#fff !important;
+}
+table th{
+}
+@media only screen and (max-width: 600px) {
+  table th {
+    min-width: 200px;
+  }
+  table{
+    text-align:center
+  }
+}
+//////
+
+$(document).ready(function(){
+  $(".btn-workload").click(function(){
+    $(".btn-workload").removeClass("active-btn");
+    $(this).addClass("active-btn");
+  })
+  $(".btn-payment").click(function(){
+    $(".btn-payment").removeClass("active-btn");
+    $(this).addClass("active-btn");
+  })
+  $(".btn-os").click(function(){
+    $(".btn-os").removeClass("active-btn");
+    $(this).addClass("active-btn");
+  })
+
+});
