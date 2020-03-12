@@ -1,0 +1,287 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <style>
+        .tablinks.active::after {
+            content: " ";
+            display: block;
+            position: absolute;
+            height: 1px;
+            background: #408de5;
+            width: 50px;
+            top: 50%;
+            right: -150px;
+        }
+        
+        .tablink {
+            width: 100%
+        }
+        
+        .tablinks-img img {
+            height: 30px;
+            width: 30px;
+            margin-right: 10px;
+        }
+        
+        .tablinks {
+            width: 70%;
+            font-size: 17px;
+            color: #000;
+        }
+        
+        @media screen and (max-width: 991px) {
+            .tablinks {
+                width: 100%;
+            }
+            .tablinks.active::after {
+                display: none;
+            }
+            .tab-content.border-left {
+                border-left: none !important;
+            }
+        }
+        
+        .ul-tablink {
+            border: transparent;
+            border-bottom: transparent!important;
+        }
+        
+        a.tablinks.nav-link.active {
+            border: 1px solid #408de5 !important;
+            position: relative;
+            border-bottom: 1px solid #408de5 !important;
+            font-weight: 500;
+        }
+        /* Tabs */
+        
+        .responsive-tabs,
+        .responsive-tabs2 {
+            margin-top: 20px;
+        }
+        
+        .responsive-tabs-container .tab-content {
+            border: none;
+        }
+        
+        .responsive-tabs-container[class*="accordion-"] .tab-pane {
+            margin-bottom: 15px;
+        }
+        
+        .responsive-tabs-container[class*="accordion-"] .accordion-link {
+            display: none;
+            margin-bottom: 10px;
+            padding: 10px 15px;
+            background-color: #f5f5f5;
+            border-radius: 3px;
+            border: 1px solid #ddd;
+            color: #333;
+        }
+        
+        .responsive-tabs-container[class*="accordion-"] .accordion-link.active {
+            border-bottom: medium none;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            color: #ff6600;
+        }
+        
+        @media (max-width: 767px) {
+            .responsive-tabs-container.accordion-xs .nav-tabs {
+                display: none;
+            }
+            .responsive-tabs-container.accordion-xs .accordion-link {
+                display: block;
+            }
+            .responsive-tabs-container[class*="accordion-"] .tab-pane {
+                border: 1px solid #ddd;
+                border-top: none;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                border-width: medium 1px 1px;
+                margin-bottom: 10px;
+                margin-top: -10px;
+                padding: 10px 10px 0;
+            }
+        }
+        
+        @media (min-width: 768px) and (max-width: 991px) {
+            .responsive-tabs-container.accordion-sm .nav-tabs {
+                display: none;
+            }
+            .responsive-tabs-container.accordion-sm .accordion-link {
+                display: block;
+            }
+            .responsive-tabs-container[class*="accordion-"] .tab-pane {
+                border: 1px solid #ddd;
+                border-top: none;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                border-width: medium 1px 1px;
+                margin-bottom: 10px;
+                margin-top: -10px;
+                padding: 10px 10px 0;
+            }
+        }
+        
+        @media (min-width: 992px) and (max-width: 1199px) {
+            .responsive-tabs-container.accordion-md .nav-tabs {
+                display: none;
+            }
+            .responsive-tabs-container.accordion-md .accordion-link {
+                display: block;
+            }
+        }
+        
+        @media (min-width: 1200px) {
+            .responsive-tabs-container.accordion-lg .nav-tabs {
+                display: none;
+            }
+            .responsive-tabs-container.accordion-lg .accordion-link {
+                display: block;
+            }
+        }
+    </style>
+    <div class="container my-5 mx-auto tab-vertical-links">
+        <ul class="nav nav-tabs responsive-tabs ul-tablink col-lg-6">
+            <li class="nav-item tablink">
+                <a class="tablinks nav-link active" data-toggle="tab" href="#tab1">
+                    <span class="tablinks-img"><img src="https://cdn2.hubspot.net/hubfs/6706555/Menu%20Icons%20SVG/Cloud%20Backup/Cloud%20Archieve/Email%20Archieve/Email%20preservation.svg">
+                    </span> <span>
+                        Fastest and Strongest SSL</span>
+                </a>
+            </li>
+
+            <li class="nav-item tablink">
+                <a class="tablinks nav-link " data-toggle="tab" href="#tab2">
+                    <span class="tablinks-img"><img src="https://cdn2.hubspot.net/hubfs/6706555/Menu%20Icons%20SVG/Cloud%20Backup/Cloud%20Archieve/Email%20Archieve/Compliance.svg"></span>
+                    <span>Secure Multiple Domains</span>
+                </a>
+            </li>
+
+            <li class="nav-item tablink">
+                <a class="tablinks nav-link " data-toggle="tab" href="#tab3">
+                    <span class="tablinks-img"><img src="https://cdn2.hubspot.net/hubfs/6706555/Menu%20Icons%20SVG/Cloud%20Backup/Cloud%20Archieve/Email%20Archieve/Reversing%20data_1.svg"></span>
+                    <span>Malware and Phishing Detection</span>
+                </a>
+            </li>
+
+            <li class="nav-item tablink">
+                <a class="tablinks nav-link " data-toggle="tab" href="#tab4">
+                    <span class="tablinks-img"><img src="https://cdn2.hubspot.net/hubfs/6706555/Menu%20Icons%20SVG/Cloud%20Backup/Cloud%20Archieve/Email%20Archieve/Data%20governance%20management.svg"></span>
+                    <span>Universal Device and OS Compatibility</span>
+                </a>
+            </li>
+
+            <li class="nav-item tablink">
+                <a class="tablinks nav-link " data-toggle="tab" href="#tab5">
+                    <span class="tablinks-img"><img src="https://cdn2.hubspot.net/hubfs/6706555/Menu%20Icons%20SVG/Cloud%20Backup/Cloud%20Archieve/Email%20Archieve/Performancde%20optimisation.svg"> </span>
+                    <span>Highest Level Industry Accreditations</span>
+                </a>
+            </li>
+
+            <li class="nav-item tablink">
+                <a class="tablinks nav-link " data-toggle="tab" href="#tab6">
+                    <span class="tablinks-img"><img src="https://cdn2.hubspot.net/hubfs/6706555/Menu%20Icons%20SVG/Cloud%20Backup/Cloud%20Archieve/Email%20Archieve/Legacy%20data%20managemenet.svg"></span>
+                    <span>SSL Certificates Expert Team</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="tab-content col-lg-6 border-left border-primary">
+        <div id="tab1" class="tab-pane fade active show ">
+            <h3>Fastest and Strongest SSL</h3>
+            <p>Most web developers and website owners are concerned about the impact that SSL security will have on their website’s loading time. XcellHost’s SSL certificates are validated by GlobalSign, one of the longest established Certification Authorities
+                (CA) that uses 2048 bit SSL since 1998, years ahead of other SSL providers. Our partnership with Cloudflare, the network performance specialist, ensures that your SSL secured websites load many times faster regardless of where your customer
+                is in the world.</p>
+            <p>Dropsute cloud-based archival help you safeguard email data in secure tamper-proof vaults over extended periods, maintaining the data online and always search ready, with ediscovery tools to find and extract select data on demand.</p>
+            <h3>Why does this matter?</h3>
+            <p>
+                There is a traditional consideration that SSL affects a website’s load time due to various factors, the main being that SSL adds latency to the page load because browser needs to wait for the issuer (the CA) of the SSL certificate (eg. GlobalSign, Symantec)
+                to confirm that the certificate is still valid before page content is rendered. This results in visitor experiencing a delay in the normal page load speed. In the world of optimally performing websites, every millisecond counts; the less
+                time a visitor waits for your website to load, the better. Organizations that choose their SSL certificate provider carefully can avoid reducing the performance of their websites. Read more how XcellHost and GlobalSign help make secure
+                sites load faster.</p>
+        </div>
+
+        <div id="tab2" class="tab-pane fade">
+            <h3>Secure Multiple Domains</h3>
+            <p>Typically an SSL certificate is issued to a single domain name, and can be used only to secure the exact domain name to which it has been issued for. For example, an SSL certificate issued to www.yourwebsite.com will not secure yourwebsite.com
+                and SSL certificate for the non-www version of the domain will have to be purchased separately. XcellHost allows you to install the same SSL certificate on as many servers as needed at no extra cost, and a single XcellHost SSL certificate
+                secures both yourwebsite.com and www.yourwebsite.com. In addition, three domains – OWA (owa.yourdomain.com), MAIL (mail.yourdomain.com) and Autodiscover (autodiscover.yourdomain.com) are secured for free with every XcellHost SSL certificate.
+                If you want to secure multiple websites with a single SSL certificate and on a single IP address, XcellHost offers two different multi-domain SSL Certificates: Wildcard SSL and Multi-Domain SSL with support for Subject Alternative Names,
+                or SAN, fields)to save you significant cost and hassle.</p>
+            <h3>Why does this matter?</h3>
+            <p>The cost of the SSL certificate used to secure your website can significantly manifold with the number of subdomains you want to secure. The superior technology of XcellHost’s SSL certificates ensure that you receive premium features such
+                as installing a single SSL certificate on multiple servers free of charge (other providers charge extra), thus saving you both significant cost and hassle. For even more enhanced flexibility of your server configurations, host names, domain
+                names and IP addresses, explore XcellHost’s Multi-domain SSL and WildCard SSL certificates.
+            </p>
+        </div>
+
+        <div id="tab3" class="tab-pane fade">
+            <h3>Malware and Phishing Detection</h3>
+            <p>Ever since SSL certificates have become a buzz-word and a must for secure online presence, many website owners think that getting an SSL certificate ensures complete security of their website, which is far from the truth. An SSL certificate,
+                if not coupled with other proper security measures, is only half as effective as it should be. Apart from securing the to-and-fro data transactions from a website, it is also vital to ensure the server side and website pages security.
+                For example, attackers often exploit vulnerabilities on your web server to use your website to distribute viruses and steal confidential data from your customers, and to bury phishing attack pages deep into your website. If Google identifies
+                your domain as one being used for such malicious activities, it blacklists it without any further notification. Our partnership with Cloudflare, the network performance specialist, ensures that your SSL secured websites load many times
+                faster regardless of where your customer is in the world. Netcraft means that ZNetLive’s SSL customers receive around the clock alerts should the Netcraft identify a phishing page and you will be notified of its location on your website.
+                Click here to know more about XcellHost’s free value added website security services.</p>
+            <h3> Why does this matter?</h3>
+            <p>The scope of protection provided by an SSL certificate is limited to securing only the data transfer to and fro from a website, i.e. it excludes the website and the server side security. The ideology behind XcellHost’s security solutions is
+                to provide a holistic protection to customers’ complete online presence, and hence, the single of their kind – all of XcellHost’s SSL certificates come with free Malware and Phishing detection – so as to provide a complete 360 degrees
+                protection and also provide security package for your website at no additional cost. Our partnership with StopTheHacker ensures that your website is monitored daily for malware and that you get timely alerts whenever a malware is found.
+                Netcraft’s Phishing Alert Service notifies website owners if a phishing attack is detected.</p>
+        </div>
+
+        <div id="tab4" class="tab-pane fade">
+            <h3>Universal Device and OS Compatibility</h3>
+            <p>Xcellhost’s SSL certificates are transparently trusted by all popular browsers, applications, devices and operating systems. Hence, no matter what device, OS or browser your visitors use, they automatically see and trust your SSL security.
+                XcellHost’s SSL certificates are validated by GlobalSign, who mandates 2048 bit keys across its entire Digital Certificate portfolio in compliance with CA/Browser Forum guidelines and NIST recommendations. Click here to see the complete
+                list of supported browsers, applications, devices, OSs, and platforms.</p>
+            <h3>Why does this matter?</h3>
+            <p>SSL certificate compatibility is a very important factor to consider when you are deciding on an SSL provider. SSL Certificates are only recognized by a browser if the Root Certificate of the CA is present within the “Trusted Root Certificates”
+                store of the browser. CA Root Certificates are added into the Trusted Root Certificate store by the browser or operating system vendors, such as Microsoft or Netscape. In general SSL vendors need to be audited to WebTrust complaint standards
+                set by the AICPA. If you use an extremely cheap, low-end technology SSL Certificate, that has been issued by a CA Root Certificate not present in the Trusted Root Certificate store in one of the commercially available browsers then the
+                visitor’s browser will display a warning message. Clearly, you need to avoid such warnings. XcellHost’s SSL certificates are compatible with all the major browsers, OSs, devices, and applications, and that’s what makes them worth paying
+                for.
+            </p>
+        </div>
+
+        <div id="tab5" class="tab-pane fade">
+            <h3>Highest Level Industry Accreditations</h3>
+            <p>XcellHost has been in the online services industry for 15 years and the 57892 active enterprise clients under our belt are a testimony to our quality services. ICANN Accredited Registrar, Microsoft Gold Hosting Competency, HostReview Affordable
+                Hosting and Readers’ Choice Award, Deloitte Technology Fast 500 Asia Pacific 2010 & 2011 Winner – we’ve got all the right award and accreditations. XcellHost’s SSL certificates are validated by GlobalSign, one of the leading Certification
+                Authorities that is audited for WebTrust annually by Ernst & Young and has been compliant since 2001, one of the longest records in the industry. GlobalSign is also active in the CA/B Forum & Trusted Internet Movement. Our certified services
+                are delivered via a robust PKI infrastructure with global data centers, disaster recovery, redundancy, high availability and world-class instrumentation protecting the network.</p>
+
+        </div>
+
+        <div id="tab6" class="tab-pane fade">
+            <h3>SSL Certificates Expert Team</h3>
+            <p>SSL Certificates can be confusing, and choosing the right one for your business is a very important but daunting task. That is why our dedicated SSL client support team is in place to guide you through every step of the way. Just drop us a
+                line about your requirement and one of our specialists will get back to you ASAP. 🙂</p>
+
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        $('.tab-vertical-links .responsive-tabs-container').addClass('row');
+    </script>
+</body>
+
+</html>
