@@ -1,0 +1,139 @@
+<div class="container-large mx-auto mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="https://cdn2.hubspot.net/hubfs/6706555/Vector%20Smart%20Object-7.png" alt="" class="dedi-why-img">
+                    </div>
+                    <div class="col-md-10 one mx-auto">
+                        <h5>Powerful Infrastructure</h5>
+                        <hr class="hori">
+                        <p class="text-justify font15">XcellHost provides the best-in-class hardware with its Dedicated Servers. With Intel Xeon processors, our servers are built for super-fast speed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="https://cdn2.hubspot.net/hubfs/6706555/Vector%20Smart%20Object-6.png" alt="" class="dedi-why-img">
+                    </div>
+                    <div class="col-md-10 one mx-auto">
+                        <h5>Maximum Privacy & Security</h5>
+                        <hr class="hori">
+                        <p class="text-justify font15">Dedicated Server offers exclusive resources to your business website/application, giving the highest level of privacy and security to your data.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="https://cdn2.hubspot.net/hubfs/6706555/Vector%20Smart%20Object-4.png" alt="" class="dedi-why-img">
+                    </div>
+                    <div class="col-md-10 one mx-auto">
+                        <h5>All flash SSD</h5>
+                        <hr class="hori">
+                        <p class="text-justify font15">SSDs are much faster than Hard Disks providing faster Read/Write speed increasing server performance by up to 30x.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-4">
+                <div class="row">
+                    <div class="col-md-2 ">
+                        <img src="https://cdn2.hubspot.net/hubfs/6706555/Vector%20Smart%20Object-5.png" alt="" class="dedi-why-img">
+                    </div>
+                    <div class="col-md-10 one mx-auto">
+                        <h5>SSH Root Access</h5>
+                        <hr class="hori">
+                        <p class="text-justify font15">All our Dedicated Servers allow full SSH root access, giving you complete control over the available resources.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="https://cdn2.hubspot.net/hubfs/6706555/Vector%20Smart%20Object-2.png" alt="" class="dedi-why-img">
+                    </div>
+                    <div class="col-md-10 one mx-auto">
+                        <h5>Choice of Operating System</h5>
+                        <hr class="hori">
+                        <p class="text-justify font15">With self-managed Dedicated Server plans, you get complete control over the choice of the operating system running the applications.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div class="row">
+                    <div class="col-md-2 ">
+                        <img src="https://cdn2.hubspot.net/hubfs/6706555/Vector%20Smart%20Object-3.png" alt="" class="dedi-why-img">
+                    </div>
+                    <div class="col-md-10 one mx-auto">
+                        <h5>Dedicated IP</h5>
+                        <hr class="hori">
+                        <p class="text-justify font15">All our Dedicated Servers are assigned an IPv4 address, allowing you to have access to server resources using the IPv4 address</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-4">
+                <div class="row">
+                    <div class="col-md-2 ">
+                        <img src="https://cdn2.hubspot.net/hubfs/6706555/Vector%20Smart%20Object%20copy%202.png" alt="" class="dedi-why-img">
+                    </div>
+                    <div class="col-md-10 one mx-auto">
+                        <h5>Choice of Control Panel</h5>
+                        <hr class="hori">
+                        <p class="text-justify font15">With our self-managed Dedicated Server plans, you get complete control over the choice of the control panel installed</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div class="row">
+                    <div class="col-md-2 ">
+                        <img src="https://cdn2.hubspot.net/hubfs/6706555/Vector%20Smart%20Object.png" alt="" class="dedi-why-img">
+                    </div>
+                    <div class="col-md-10 one mx-auto">
+                        <h5>Tier IV Data Center</h5>
+                        <hr class="hori">
+                        <p class="text-justify font15">With the Tier IV Data Center, you get dedicated servers with new generation hardware equipped with the latest security and privacy mechanisms installed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div class="row">
+                    <div class="col-md-2 ">
+                        <img src="https://cdn2.hubspot.net/hubfs/6706555/Vector%20Smart%20Object-1.png" alt="" class="dedi-why-img">
+                    </div>
+                    <div class="col-md-10 one mx-auto">
+                        <h5>Tier 1 ISPs</h5>
+                        <hr class="hori">
+                        <p class="text-justify font15">With Tier 1 ISP, you get access to a direct connection to the global Internet backbone, giving an extra boost to the regular communication with your dedicated server.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    ---------------------------------------------
+    .font15 {
+            font-size: 15px;
+        }
+        
+        .hori {
+            width: 60px;
+            min-height: 2px;
+            border: none;
+            transition: all .5s ease 0s;
+            background: #408de5;
+            margin: 5px 0;
+            text-align: left;
+        }
+.dedi-why-img{
+  height:48px;
+  width:48px;
+}
+        .one:hover hr {
+            background: yellowgreen;
+            width: 130px;
+        }
