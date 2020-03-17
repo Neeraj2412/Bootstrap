@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <style>
+   
+
+        .elementor-counter-number-wrapper .elementor-counter-number {
+            color: #f15446;
+            font-family: gothamhtf-mid;
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 24px;
+            text-transform: uppercase;
+            padding-top: 10px;
+        }
+
+        .count_img .elementor-image {
+            -webkit-transform: perspective(1px) translateZ(0);
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            position: relative;
+            background: #fff;
+            transition: all 0.3s ease;
+            margin: 0 auto;
+            width: 125px;
+            border-radius: 10rem;
+            height: 125px;
+            box-shadow: 0 5px 18px 2px rgba(0, 0, 0, 0.15);
+            border: 2px solid #f15446;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .count_img .elementor-image:hover {
+            background: #7abcff;
+        }
+
+        .count_img .elementor-image:hover img {
+            filter: brightness(100) invert(0);
+        }
+
+        .count_img .elementor-image:hover:before,
+        .count_img .elementor-image:focus:before,
+        .hvr-ripple-out:active:before {
+            -webkit-animation-name: hvr-ripple-out;
+            animation-name: hvr-ripple-out;
+            opacity: 1;
+        }
+
+        .count_img .elementor-image:before {
+            content: '';
+            position: absolute;
+            border: #7abcff solid 10px;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 10rem;
+            left: 0;
+            -webkit-animation-duration: .8s;
+            animation-duration: .8s;
+            opacity: 0;
+        }
+
+        @-webkit-keyframes hvr-ripple-out {
+            100% {
+                top: -22px;
+                right: -22px;
+                bottom: -22px;
+                left: -22px;
+                opacity: 0;
+            }
+        }
+
+        @keyframes hvr-ripple-out {
+            100% {
+                top: -22px;
+                right: -22px;
+                bottom: -22px;
+                left: -22px;
+                opacity: 0;
+            }
+        }
+
+        .cust_logo .slick-track {
+            display: flex;
+            align-items: center;
+        }
+
+        .cust_logo .slick-slide {
+            margin: 0 5px;
+        }
+    </style>
+    <!--  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="col">
+                    <div class=" count_img  "
+                        >
+                        <div class="">
+                            <div class="elementor-image">
+                                <img width="76" height="61"
+                                    src="https://cdn2.hubspot.net/hubfs/6706555/65808.png"
+                                    class="attachment-large size-large" alt=""> 
+                                </div>
+                        </div>
+                        </div>
+                </div>
+                <div class="col text-center mt-3">
+                    <h6>20+ Successful Years</h6>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="col">
+                    <div class=" count_img  "
+                        >
+                        <div class="">
+                            <div class="elementor-image">
+                                <img width="76" height="61"
+                                    src="https://cdn2.hubspot.net/hubfs/6706555/5c3e31b4d1dbdfca14644f1f_feature_6.png"
+                                    class="attachment-large size-large" alt=""> 
+                                </div>
+                        </div>
+                        </div>
+                </div>
+                <div class="col text-center mt-3">
+                    <h6>500+Enterprise Clients</h6>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="col">
+                    <div class=" count_img  "
+                        >
+                        <div class="">
+                            <div class="elementor-image">
+                                <img width="76" height="61"
+                                    src="https://cdn2.hubspot.net/hubfs/6706555/support-clipart-technical-assistance-4-1.png"
+                                    class="attachment-large size-large" alt=""> 
+                                </div>
+                        </div>
+                        </div>
+                </div>
+                <div class="col text-center mt-3">
+                    <h6>250+ Azure Projects Completed
+                        </h6>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="col">
+                    <div class=" count_img  "
+                        >
+                        <div class="">
+                            <div class="elementor-image">
+                                <img width="76" height="61"
+                                    src="https://cdn2.hubspot.net/hubfs/6706555/47961-1.png"
+                                    class="attachment-large size-large" alt=""> 
+                                </div>
+                        </div>
+                        </div>
+                </div>
+                <div class="col text-center mt-3">
+                    <h6>MSPCompetency</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+                        
+       
+   
+          
+                    
+                    
+                    
+    
+    <!--  -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
